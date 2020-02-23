@@ -32,14 +32,14 @@ public class VacationDestinations {
 	    System.out.println("Group size must be positive.");
 	    return;
 	} else if (groupSize <= 2) {
-	    travelSuggestion = "First Class";
+	    travelSuggestion = "First Class Flight";
 	} else if (groupSize <= 5) {
 	    travelSuggestion = "Helicopter";
 	} else {
 	    travelSuggestion = "Charter Flight";
 	}
 
-	String result = "Since you’re a group of " + groupSize + " going on a " + vacationType
+	String result = "Since you’re a group of " + groupSize + " going on a(n) " + vacationType
 		+ " vacation, you should take a " + travelSuggestion + " to " + vacationDestination + ".";
 
 	System.out.println(result);
