@@ -8,11 +8,6 @@ public class VacationDestinations {
 	System.out.print("What kind of vacation would you like to go on, musical, tropical, or adventurous?");
 	String vacationType = scnr.next();
 
-	System.out.print("How many people are in your group?");
-	int groupSize = scnr.nextInt();
-
-	scnr.close();
-
 	String vacationDestination;
 
 	if (vacationType.equals("musical")) {
@@ -25,6 +20,11 @@ public class VacationDestinations {
 	    System.out.println("You must choose musical, tropical, or adventurous.");
 	    return;
 	}
+
+	System.out.print("How many people are in your group?");
+	int groupSize = scnr.nextInt();
+
+	scnr.close();
 
 	String travelSuggestion;
 
