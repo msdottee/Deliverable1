@@ -5,7 +5,7 @@ public class VacationDestinations {
     public static void main(String[] args) {
 	Scanner scnr = new Scanner(System.in);
 
-	System.out.print("What kind of vacation would you like to go on, music, tropical, or adventurous?");
+	System.out.print("What kind of vacation would you like to go on, musical, tropical, or adventurous?");
 	String vacationType = scnr.next();
 
 	System.out.print("How many people are in your group?");
